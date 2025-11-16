@@ -19,7 +19,9 @@ public class NifflerTests {
         $("#save").click();
         $("[placeholder=Search").setValue("Education_5").pressEnter();
         $("tbody").$("tr").shouldHave(text("Education_5")).shouldHave(text("1005"));
-        sleep(3000L);
+
+        sleep(1000L);
+
 
 
     }
