@@ -15,7 +15,7 @@ public class NifflerTests {
         $("#login-button").click();
         $("header").$(byText("New spending")).click();
         $("#amount").setValue("1005");
-        $("#category").setValue("Education_5");
+        $("#category").setValue("Education_CONFLICT");
         $("#save").click();
         $("[placeholder=Search").setValue("Education_5").pressEnter();
         $("tbody").$("tr").shouldHave(text("Education_5")).shouldHave(text("1005"));
