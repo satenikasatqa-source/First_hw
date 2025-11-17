@@ -20,7 +20,7 @@ public class NifflerTests {
         $("[placeholder=Search").setValue("Education_5").pressEnter();
         $("tbody").$("tr").shouldHave(text("Education_5")).shouldHave(text("1005"));
 
-        sleep(5000L);
+        sleep(7000L);
 
 
 
